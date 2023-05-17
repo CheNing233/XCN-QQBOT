@@ -1,5 +1,7 @@
 # XCN-QQBOT 项目
 
+![头图](./sdoutput/example.png)
+
 基于 PYCQBOT 基于 go-cqhttp 基于 Mirai 以及 MiraiGo 的 OneBot Golang 原生实现
 
 该项目仅自用测试，如果出现任何问题请自行承担责任。（好玩记得点个star）
