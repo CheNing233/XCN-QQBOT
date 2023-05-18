@@ -15,38 +15,7 @@
 
 - 支持查看任务队列，查看显卡状态（基于pynvml实现，部分显卡不支持）
 - 支持文生图（及其Hires.fix）、图生图以及单张图片超分放大
-- 支持修改steps、seed、cfg以及高清修复算法、超分放大算法、采样器、模型、**VAE**、CLIP等参数，支持对指定任务指定参数，具体参数如下：
-
-```
-negative_prompt
-step
-sampler
-cfg scale
-seed
-width
-height
-batch_count
-
-Hires.fix_enable
-denoise_strength
-upscale
-upscaler
-hires_step
-
-model
-VAE
-CLIP
-ENSD
-
-extra_upscale
-extra_upscaler1
-extra_upscaler1_weight
-extra_upscaler2
-extra_upscaler2_weight
-
-tagger_model
-```
-
+- 支持修改steps、seed、cfg以及高清修复算法、超分放大算法、采样器、模型、**VAE**、CLIP等参数，支持对指定任务指定参数
 - 支持pnginfo功能，支持tagger插件反推及涩涩鉴定，**支持tagger模型卸载指令，防止爆显存**
 - **支持重载模型，用于解决炸炉后显存不释放的问题**
 
