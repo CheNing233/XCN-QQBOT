@@ -17,7 +17,7 @@
 - 支持文生图（及其Hires.fix）、图生图以及单张图片超分放大
 - 支持修改steps、seed、cfg以及高清修复算法、超分放大算法、采样器、模型、**VAE**、CLIP等参数，支持对指定任务指定参数，具体参数如下：
 
-```PYTHON
+```
 negative_prompt
 step
 sampler
