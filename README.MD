@@ -19,6 +19,39 @@
 - 支持pnginfo功能，支持tagger插件反推及涩涩鉴定，**支持tagger模型卸载指令，防止爆显存**
 - **支持重载模型，用于解决炸炉后显存不释放的问题**
 
+```
+支持修改的参数：
+
+negative_prompt
+step
+sampler
+cfg_scale
+seed
+width
+height
+batch_count
+
+Hires.fix_enable
+denoise_strength
+upscale
+upscaler
+hires_step
+
+model
+VAE
+CLIP
+ENSD
+
+extra_upscale
+extra_upscaler1
+extra_upscaler1_weight
+extra_upscaler2
+extra_upscaler2_weight
+
+tagger_model
+tagger_threshold
+```
+
 ## Environment
 
 1、该项目已将原`PYCQBOT`项目修改并内嵌，不需要`pip install pycqbot`
