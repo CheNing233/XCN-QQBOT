@@ -4,7 +4,7 @@
 
 基于 PYCQBOT 基于 go-cqhttp 基于 Mirai 以及 MiraiGo 的 OneBot Golang 原生实现
 
-该项目仅自用测试，如果出现任何问题请自行承担责任。（好玩记得点个star）
+作者是菜鸡，该项目仅自用测试，如果出现任何问题请自行承担责任。（好玩记得点个star）
 
 内含“sdapi”插件，该插件定位于面向小群自用的sdwebui画图需求，消费级电脑也能带（作者thinkbook+3050 4G）
 
@@ -15,7 +15,37 @@
 
 - 支持查看任务队列，查看显卡状态（基于pynvml实现，部分显卡不支持）
 - 支持文生图（及其Hires.fix）、图生图以及单张图片超分放大
-- 支持修改steps、seed、cfg以及高清修复算法、超分放大算法、采样器、模型、**VAE**、CLIP等参数，支持对指定任务指定参数
+- 支持修改steps、seed、cfg以及高清修复算法、超分放大算法、采样器、模型、**VAE**、CLIP等参数，支持对指定任务指定参数，具体参数如下：
+
+```PYTHON
+negative_prompt
+step
+sampler
+cfg scale
+seed
+width
+height
+batch_count
+
+Hires.fix_enable
+denoise_strength
+upscale
+upscaler
+hires_step
+
+model
+VAE
+CLIP
+
+extra_upscale
+extra_upscaler1
+extra_upscaler1_weight
+extra_upscaler2
+extra_upscaler2_weight
+
+tagger_model
+```
+
 - 支持pnginfo功能，支持tagger插件反推及涩涩鉴定，**支持tagger模型卸载指令，防止爆显存**
 - **支持重载模型，用于解决炸炉后显存不释放的问题**
 
