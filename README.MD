@@ -36,6 +36,7 @@ hires_step
 model
 VAE
 CLIP
+ENSD
 
 extra_upscale
 extra_upscaler1
