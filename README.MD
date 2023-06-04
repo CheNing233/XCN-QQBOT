@@ -1,3 +1,8 @@
+# 新版说明
+
+本项目已重构，请移步新版
+新版基于nonebot2，支持QQ、飞书、Telegram等平台
+
 # XCN-QQBOT 项目
 
 ![头图](./sdoutput/example.png)
